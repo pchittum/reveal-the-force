@@ -12,8 +12,24 @@
         <name>ApexPage</name>
     </types>
     <types>
+        <members>Reveal_Preview</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>Account-Account Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>RevealJS_Account_Page_Access</members>
+        <name>PermissionSet</name>
+    </types>
+    <types>
         <members>revealjs</members>
         <name>StaticResource</name>
+    </types>
+    <types>
+        <members>Account.Present_This_Account</members>
+        <name>WebLink</name>
     </types>
     <version>28.0</version>
 </Package>

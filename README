@@ -1,0 +1,19 @@
+Nascent project for creating data-driven slide shows in Force.com using the RevealJS Javascript library.
+
+What's it got:
+Initial port of RevealJS libs into Force.com artifacts including
+- JS, CSS, and core RevealJS functionality
+- Basic Themes that come with the RevealJS library
+- Additional Force.com Theme using salesforce.com license for webfont VAG Rounded
+- Static example slide presentation from the RevealJS project into a Visualforce page
+- Visualforce Template page packaging core features for slide presentation
+- Example page driven from Account with
+  - Custom link on account page layout
+  - Mobile card on Salesforce1 Mobile App Account page
+- Permissions set for assigning access to VF page and Account properties to support sample implementation
+
+
+What's it not:
+- No implementation of speaker notes as of yet
+- Code highlighting not working
+- Print to PDF not working either
