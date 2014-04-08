@@ -12,6 +12,7 @@ Initial port of RevealJS libs into Force.com artifacts including
   - Mobile card on Salesforce1 Mobile App Account page
 - Permissions set for assigning access to VF page and Account properties to support sample implementation
 
+Page Layout, mobile card and pemission set have not been test deployed to a new environment.
 
 What's it not:
 - No implementation of speaker notes as of yet
