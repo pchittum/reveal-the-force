@@ -1,0 +1,13 @@
+# don't need these
+
+.settings/
+salesforce.schema
+raw-files/EventLeadResources/static_server.js
+Referenced\ Packages/
+
+# OS generated files
+
+.DS_Store*
+ehthumbs.db
+Icon?
+Thumbs.db
