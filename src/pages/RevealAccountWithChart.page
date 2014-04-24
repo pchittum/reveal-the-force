@@ -24,10 +24,15 @@
                 <section>
                     <section>
                         <h2>
-                            Key Opportunities
+                            Opportunity Pipeline
                         </h2>
+                         
+                        <div>
+                        	<analytics:reportChart developerName="pipeline_with_stage_chart" filter="[{'column':'ACCOUNT_ID','operator':'equals','value':'{!Account.Id}'}]" size="small" showRefreshButton="false"/>
+                        </div>
+                        
                         <p>
-                            Go Down
+                            Go Down for Opportunity Details
                         </p>
                     </section>
                     <apex:repeat value="{!Account.Opportunities}" var="oppty">
@@ -48,7 +53,7 @@
                             Key Contacts
                         </h2>
                         <p>
-                            Go Down
+                            Go Down for Contacts
                         </p>
                     </section>
                     <apex:repeat value="{!Account.Contacts}" var="contact">

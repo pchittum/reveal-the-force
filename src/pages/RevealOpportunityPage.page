@@ -1,0 +1,14 @@
+<apex:page standardController="Opportunity" readOnly="true" docType="html-5.0" applyBodyTag="false" showHeader="false" standardStylesheets="false" >
+    <apex:composition template="{!$Page.RevealJSTemplate}">
+        <apex:define name="slides">
+            <!-- Any section element inside of this container is displayed as a slide -->
+            <div class="slides">
+                <section>
+                    <h2>Presentation for Opportunity: {!Opportunity.Name}</h2>
+                </section>
+ 
+
+            </div>
+        </apex:define>
+    </apex:composition>
+</apex:page>

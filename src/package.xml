@@ -6,7 +6,9 @@
     </types>
     <types>
         <members>RevealAccountBasic</members>
+        <members>RevealAccountWithChart</members>
         <members>RevealJSTemplate</members>
+        <members>RevealOpportunityPage</members>
         <members>RevealStatic</members>
         <members>RevealStaticComposition</members>
         <name>ApexPage</name>

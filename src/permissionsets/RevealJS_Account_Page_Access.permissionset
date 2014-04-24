@@ -10,8 +10,16 @@
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
+        <apexPage>RevealAccountWithChart</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
+    <pageAccesses>
         <apexPage>RevealJSTemplate</apexPage>
         <enabled>true</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>RevealOpportunityPage</apexPage>
+        <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>RevealStatic</apexPage>
@@ -449,6 +457,10 @@
     <userPermissions>
         <enabled>false</enabled>
         <name>ViewEncryptedData</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ViewHelpLink</name>
     </userPermissions>
     <userPermissions>
         <enabled>false</enabled>

@@ -70,6 +70,7 @@
 			Reveal.addEventListener( 'customevent', function() {
 				console.log( '"customevent" has fired' );
 			} );
+ 
         </script>
     </body>
 </apex:page>
